@@ -8,113 +8,37 @@
   <link href="style.css" rel="stylesheet" type="text/css" />
 </head>
 
-<body>
+<body onload= "writeTxt()">
   <header>
-   
+    <div class = "bakcolor"></div>
   </header>
   <nav>
-<a href = "index.html">Home</a>
-    <a href = "page1.html">Page 1</a>
-    <a href = "page2.html"> Page 2</a> 
-<a href = "https://www.columbusstate.edu/">CSU</a>
+<a tabindex = "1" href = "index.html">Home</a>
+    <a tabindex = "2" href = "page1.html">Page 1</a>
+    <a tabindex = "3" href = "page2.html"> Page 2</a> 
+    <a tabindex = "4" href = "page3.html"> Page 3</a>
+<a tabindex= "5" href = "https://www.columbusstate.edu/">CSU</a>
   </nav>
   <main>
     <div class = "maindiv">
       <div>
         <p class = "on1">
-II
-III
-IV
-V
-VI
-VII
-VIII
-IX
-X
-XI
-XII
-XIII
-XIV
-XV
-XVI
-XVII
-XVIII
-XIX
-XX
-XXI
-XXII
-XXIII
-XXIV
-XXV
-XXVI
-XXVII
-XXVIII
-XXIX
-XXX
-XXXI
-XXXII
-XXXIII
-XXXIV
-XXXV
-XXXVI
-XXXVII
-XXXVIII
-XXXIX
-XL</p>
       </div>
       <div>
-        <p class = "tw2">i
-ii
-iii
-iv
-v
-vi
-vii
-viii
-ix
-x
-xi
-xii
-xiii
-xiv
-xv
-xvi
-xvii
-xviii
-xix
-xx
-xxi
-xxii
-xxiii
-xxiv
-xxv
-xxvi
-xxvii
-xxviii
-xxix
-xxx
-xxxi
-xxxii
-xxxiii
-xxxiv
-xxxv
-xxxvi
-xxxvii
-xxxviii
-xxxix
-xl</p>
-      </div>
-      <div>
-        <p class = "tr3"><ol><li>Grid Area Templates: it's an easy way to determine the position of elements; It's a CSS property that takes values determining the columns and rows of the grid template. </li>
-        <li>GitHub through Repl.it: Repl.it allows you to create Github Repos; Github is a nice software that allows you to manage code.</li>
-        <li>Committing: It's documenting changes made to a code source file; Saving snapshots allows for a detailed review of code.</li></ol></p>
+        <p class = "tw2">    <p class = "tr3"><ol type = "I"><li>Grid Area Templates: <ol type = "i"><li>it's an easy way to determine the position of elements;</li> <li> It's a CSS property that takes values determining the columns and rows of the grid template.</li> </ol></li>
+        <li>GitHub through Repl.it: <ol type = "i" ><li>Repl.it allows you to create Github Repos;</li> <li>Github is a nice software that allows you to manage code.</li></ol>
+       </li> <li>Committing: <ol type = "i" ><li>It's documenting changes made to a code source file; </li> <li> Saving snapshots allows for a detailed review of code.</li></ol></li></ol></p>
       </div>
     </div>
     
   </main>
+  <aside>
+    <canvas aria-label ="Your browser does not support this feature." role ="img" id = "kanvas" width = "100" height = "100"></canvas>
+  </aside>
   <footer>
     <p>TERANGA LLC <span>&#169;</span> </p>  <div class = "info"><p>Adress: 1234 Unknown St, Some, Where</p>  <p class = "cont">Contact: +221772233411</p></div> 
   </footer>
+   <script src="script.js"></script>
 </body>
 
 </html>
